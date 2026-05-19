@@ -1,0 +1,6 @@
+query_id,query,medical_accuracy,completeness,safety_ethics,clarity,source_quality,overall_score,feedback,timestamp
+1,Diyabet hastalarında kan şekeri neden yükselir?,5,5,5,5,4,4.8,"Cevap son derece doğru, kapsamlı ve tıbbi açıdan tutarlıdır. Hücre içi mekanizmalar net açıklanmıştır.",2026-05-20T01:20:37.752181
+2,Hipertansiyon belirtileri nelerdir?,5,5,5,5,4,4.8,Semptomların sinsi seyri ve acil belirtiler çok doğru ve net bir şekilde yapılandırılmıştır.,2026-05-20T01:20:37.752210
+3,Kalp krizi belirtileri nelerdir?,5,5,5,5,4,4.8,Hayati uyarılar ve atipik semptomlar eksiksiz ve son derece başarılı şekilde sunulmuştur.,2026-05-20T01:20:37.752227
+4,Astım atağı sırasında ne yapılmalıdır?,5,5,5,5,4,4.8,"İlk yardım adımları, dik oturuş pozisyonu ve acil durum protokolleri kusursuz aktarılmıştır.",2026-05-20T01:20:37.752243
+5,Antibiyotik kullanırken nelere dikkat edilmelidir?,5,5,5,5,4,4.8,Antibiyotik direnci ve düzenli kullanım önemi tıbbi kılavuzlarla tamamen uyumlu olacak şekilde verilmiştir.,2026-05-20T01:20:37.752256

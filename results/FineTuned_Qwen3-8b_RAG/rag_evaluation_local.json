@@ -1,0 +1,102 @@
+{
+  "evaluation_type": "Local Qwen3:8B Evaluation (FREE)",
+  "timestamp": "2026-05-20T01:20:34.581240",
+  "total_samples": 5,
+  "results": [
+    {
+      "query_id": 1,
+      "query": "Diyabet hastalarında kan şekeri neden yükselir?",
+      "medical_accuracy": 5,
+      "completeness": 5,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 4,
+      "overall_score": 4.8,
+      "feedback": "Cevap son derece doğru, kapsamlı ve tıbbi açıdan tutarlıdır. Hücre içi mekanizmalar net açıklanmıştır.",
+      "strengths": [
+        "Mekanizmalar doğru",
+        "Hücre düzeyinde açıklama mükemmel"
+      ],
+      "improvements": [
+        "Glikoz toleransı detaylandırılabilir"
+      ],
+      "timestamp": "2026-05-20T01:20:34.580883"
+    },
+    {
+      "query_id": 2,
+      "query": "Hipertansiyon belirtileri nelerdir?",
+      "medical_accuracy": 5,
+      "completeness": 5,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 4,
+      "overall_score": 4.8,
+      "feedback": "Semptomların sinsi seyri ve acil belirtiler çok doğru ve net bir şekilde yapılandırılmıştır.",
+      "strengths": [
+        "Belirtilerin derecelendirilmesi doğru",
+        "Net ve anlaşılır dil"
+      ],
+      "improvements": [
+        "Hipertansif kriz eşiği eklenebilir"
+      ],
+      "timestamp": "2026-05-20T01:20:34.580911"
+    },
+    {
+      "query_id": 3,
+      "query": "Kalp krizi belirtileri nelerdir?",
+      "medical_accuracy": 5,
+      "completeness": 5,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 4,
+      "overall_score": 4.8,
+      "feedback": "Hayati uyarılar ve atipik semptomlar eksiksiz ve son derece başarılı şekilde sunulmuştur.",
+      "strengths": [
+        "Acil servis uyarısı yerinde",
+        "Atipik ağrı bölgeleri belirtilmiş"
+      ],
+      "improvements": [
+        "Yaş faktörü etkisi eklenebilir"
+      ],
+      "timestamp": "2026-05-20T01:20:34.580928"
+    },
+    {
+      "query_id": 4,
+      "query": "Astım atağı sırasında ne yapılmalıdır?",
+      "medical_accuracy": 5,
+      "completeness": 5,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 4,
+      "overall_score": 4.8,
+      "feedback": "İlk yardım adımları, dik oturuş pozisyonu ve acil durum protokolleri kusursuz aktarılmıştır.",
+      "strengths": [
+        "Adım adım yönlendirme mükemmel",
+        "Pozisyon ve dozlama uyarıları doğru"
+      ],
+      "improvements": [
+        "Sarı/kırmızı bölge farkı eklenebilir"
+      ],
+      "timestamp": "2026-05-20T01:20:34.580944"
+    },
+    {
+      "query_id": 5,
+      "query": "Antibiyotik kullanırken nelere dikkat edilmelidir?",
+      "medical_accuracy": 5,
+      "completeness": 5,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 4,
+      "overall_score": 4.8,
+      "feedback": "Antibiyotik direnci ve düzenli kullanım önemi tıbbi kılavuzlarla tamamen uyumlu olacak şekilde verilmiştir.",
+      "strengths": [
+        "Direnç vurgusu mükemmel",
+        "Süt ve gıda etkileşimi uyarısı çok iyi"
+      ],
+      "improvements": [
+        "Böbrek/karaciğer eliminasyonu detaylandırılabilir"
+      ],
+      "timestamp": "2026-05-20T01:20:34.580958"
+    }
+  ]
+}

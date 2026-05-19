@@ -1,0 +1,6 @@
+query_id,query_length,answer_length,context_count,avg_context_length,has_safety_disclaimer
+1,47,828,0,0,True
+2,35,817,0,0,True
+3,32,870,0,0,True
+4,38,962,0,0,True
+5,50,994,0,0,True

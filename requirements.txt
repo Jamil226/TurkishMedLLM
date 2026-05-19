@@ -1,0 +1,15 @@
+pandas
+pyarrow
+fastparquet
+langchain
+langchain-core
+langchain-text-splitters
+tqdm
+beautifulsoup4
+python-dotenv
+langchain-ollama
+langchain-chroma
+chromadb
+ragas
+deepeval
+streamlit

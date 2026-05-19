@@ -1,0 +1,73 @@
+# ==========================================
+# TurkishMedLLM - Production GitIgnore
+# ==========================================
+
+# 1. Python Environment & Compilation
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 2. Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+venv_linux_backup/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 3. Sensitive Configuration & Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 4. Large Datasets & Processed Telemetry
+data-ingestion/
+data-processed/
+data-transformed/
+data-vectorstore/
+data-evaluation/
+data-rag/outputs/
+
+# 5. Model Checkpoints & Large Model Weights
+qlora_checkpoints/
+turkishmedllm_qlora_checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.gguf
+
+# 6. Local Logging & Telemetry
+*.log
+.deepeval/
+.langchain/
+
+# 7. Skills
+skills/
+
+
+# 8. Temporary, Scratch & Extra Archive folders
+extras/
+scratch/
+
+# 9. IDE & System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

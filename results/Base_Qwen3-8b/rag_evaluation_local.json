@@ -1,0 +1,129 @@
+{
+  "evaluation_type": "Local Qwen3:8B Evaluation (FREE)",
+  "timestamp": "2026-05-19T17:36:23.687083",
+  "total_samples": 6,
+  "results": [
+    {
+      "query_id": 1,
+      "query": "Diyabet hastalarında kan şekeri neden yükselir?",
+      "medical_accuracy": 4,
+      "completeness": 3,
+      "safety_ethics": 5,
+      "clarity": 4,
+      "source_quality": 3,
+      "overall_score": 3.8,
+      "feedback": "Cevap genel olarak tıbbi bilgiyi doğru ve net bir şekilde sunar ancak bazı detaylar eksik kalıyor. Kaynaklar açıkça atıf yapılmadığı için güvenilirlik düzeyi sınırlı.",
+      "strengths": [
+        "Tip 1 ve Tip 2 diyabet mekanizmalarını doğru şekilde açıklıyor",
+        "Kan şekeri kontrolünün önemi vurgulanıyor"
+      ],
+      "improvements": [
+        "İnsülin eksikliği ve direnç dışında karaciğerin glukoz üretimine etkisi eklenmeli",
+        "Beslenme alışkanlıkları ve yaşam tarzı faktörleri detaylandırılmalı",
+        "Hipergliseminin belirtileri (taşikardi, koma vb.) belirtilmeli",
+        "Kaynaklar belirtilmeden önce bilgi bütünlüğü artırılmalı"
+      ],
+      "timestamp": "2026-05-19T17:07:33.417116"
+    },
+    {
+      "query_id": 2,
+      "query": "Diyabet hastalarında kan şekeri neden yükselir?",
+      "medical_accuracy": 4,
+      "completeness": 3,
+      "safety_ethics": 5,
+      "clarity": 3,
+      "source_quality": 2,
+      "overall_score": 3.4,
+      "feedback": "Cevap genel olarak tıbbi bilgiyi doğru aktarmakta ancak bazı detaylar eksik. Tıbbi mekanizmaların daha derinlemesine açıklanması ve kaynakların belirtilmesi gerekir.",
+      "strengths": [
+        "İnsülin eksikliği ve direnç mekanizmaları doğru açıklanmıştır",
+        "Hipergliseminin komplikasyonları ve önemi vurgulanmıştır"
+      ],
+      "improvements": [
+        "Tıbbi mekanizmaların (örneğin karaciğerin rolü, stres hormonları) daha detaylı açıklanması gerekir",
+        "Kaynakların belirtilmesi ve bilgiye dayalı ifadelerin daha net hale getirilmesi önerilir"
+      ],
+      "timestamp": "2026-05-19T17:17:52.721535"
+    },
+    {
+      "query_id": 3,
+      "query": "Hipertansiyon belirtileri nelerdir?",
+      "medical_accuracy": 4,
+      "completeness": 4,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 3,
+      "overall_score": 4.2,
+      "feedback": "Cevap genel olarak tıbbi bilgileri doğru ve açık şekilde sunar, ancak hipertansiyonun çoğunlukla asimptomatik olması ve belirtilerin non-spesifik olması gibi detaylar daha vurgulanmalıydı. Kaynak atıfları eksik olduğu için bilgi güvenilirliği sınırlı görünüyor.",
+      "strengths": [
+        "Tıbbi bilgilerin çoğu doğru ve güncel",
+        "Yapısal olarak net ve profesyonel bir sunum"
+      ],
+      "improvements": [
+        "Hipertansiyonun asimptomatik doğasını daha vurgulamalı",
+        "Kaynak atıfları eklenmeli veya bilgi kaynaklarının güvenilirliği belirtilmeli"
+      ],
+      "timestamp": "2026-05-19T17:24:58.509277"
+    },
+    {
+      "query_id": 4,
+      "query": "Kalp krizi belirtileri nelerdir?",
+      "medical_accuracy": 5,
+      "completeness": 4,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 3,
+      "overall_score": 4.4,
+      "feedback": "Cevap genel olarak tıbbi bilgileri doğru ve profesyonel bir şekilde sunar, ancak kaynak atıflar eksik olabilir.",
+      "strengths": [
+        "Tıbbi bilgilerin kanıta dayanması",
+        "Acil yardım uyarısı ve etik yönlendirmelerin yer alması"
+      ],
+      "improvements": [
+        "Kaynakların (örneğin risk faktörleri) kullanımını artırma",
+        "Belirtilerin süresi ve farklılık gösteren semptomlar hakkında daha fazla detay eklemek"
+      ],
+      "timestamp": "2026-05-19T17:29:44.549431"
+    },
+    {
+      "query_id": 5,
+      "query": "Astım atağı sırasında ne yapılmalıdır?",
+      "medical_accuracy": 4,
+      "completeness": 4,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 4,
+      "overall_score": 4.4,
+      "feedback": "Cevap tıbbi bilgileri doğru ve etik açıdan uygun şekilde sunmaktadır. Ancak daha detaylı tedavi adımları (örneğin bronkodilatör türleri) ve pandemi ile ilgili bilgilerin soruyla ilgisi olmaması nedeniyle eksiklikler mevcuttur.",
+      "strengths": [
+        "Tıbbi doğruluk ve etik yönlendirmeler iyi işlenmiştir",
+        "Açıklama net ve yapılandırılmıştır"
+      ],
+      "improvements": [
+        "Ateş tedavisi sırasında kullanılan spesifik ilaçlar (örneğin albuterol) belirtilmeli",
+        "Pandemi ile ilgili bilgiler soruyla ilgisi olmadığı için çıkarılmalı"
+      ],
+      "timestamp": "2026-05-19T17:33:09.070087"
+    },
+    {
+      "query_id": 6,
+      "query": "Antibiyotik kullanırken nelere dikkat edilmelidir?",
+      "medical_accuracy": 4,
+      "completeness": 3,
+      "safety_ethics": 4,
+      "clarity": 5,
+      "source_quality": 3,
+      "overall_score": 3.8,
+      "feedback": "Cevap genel olarak doğru ve profesyonel bir şekilde hazırlanmış olsa da bazı önemli detaylar eksik. Örneğin, antibiyotiklerin virüs enfeksiyonlarında kullanılmaması gibi kritik bilgiler eksik. Kaynak atıfları eksik olup, bilgilerin uluslararası düzenlemelere uygunluğunu göstermemektedir.",
+      "strengths": [
+        "Açık ve yapılandırılmış ifadeler",
+        "Tedavi süresi tamamlanmasının önemi vurgulanmış"
+      ],
+      "improvements": [
+        "Virüs enfeksiyonlarında antibiyotik kullanımının yanlışlığı eklenmeli",
+        "Kaynak atıfları ve uluslararası düzenlemelerin belirtilmesi gerekir"
+      ],
+      "timestamp": "2026-05-19T17:36:23.666085"
+    }
+  ]
+}

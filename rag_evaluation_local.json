@@ -1,0 +1,127 @@
+{
+  "evaluation_type": "Local Qwen3:8B Evaluation (FREE)",
+  "timestamp": "2026-05-18T21:05:04.956645",
+  "total_samples": 6,
+  "results": [
+    {
+      "query_id": 1,
+      "query": "Diyabet hastalarında kan şekeri neden yükselir?",
+      "medical_accuracy": 4,
+      "completeness": 3,
+      "safety_ethics": 5,
+      "clarity": 4,
+      "source_quality": 3,
+      "overall_score": 3.8,
+      "feedback": "Cevap genel olarak tıbbi bilgiyi doğru ve net bir şekilde sunar, ancak bazı detaylar eksik kalabilir.",
+      "strengths": [
+        "Insülinin rolü ve diyabet türlerinin açıklaması doğru",
+        "Tıbbi uzmana danışma önerisi etik açıdan uygun"
+      ],
+      "improvements": [
+        "Diyabetin mekanizmalarında daha detaylı açıklama (örneğin karaciğerin rolü, insülin direncinin mekanizması)",
+        "Kaynak atıflarını daha açıkça belirtme ve beslenme/fiziksel aktivite gibi etkenleri de kapsama"
+      ],
+      "timestamp": "2026-05-18T21:04:21.840083"
+    },
+    {
+      "query_id": 2,
+      "query": "Diyabet hastalarında kan şekeri neden yükselir?",
+      "medical_accuracy": 4,
+      "completeness": 3,
+      "safety_ethics": 5,
+      "clarity": 4,
+      "source_quality": 3,
+      "overall_score": 3.8,
+      "feedback": "Cevap genel olarak doğru ve akıcı bir şekilde sunulmuş olmasına rağmen, bazı detaylar eksik kalıyor. Tıbbi bilgi doğru ancak daha kapsamlı olabilirdi.",
+      "strengths": [
+        "İnsülin eksikliği ve direnç mekanizmaları net bir şekilde açıklanmış",
+        "Kan şekeri kontrolünün önemi vurgulanmış"
+      ],
+      "improvements": [
+        "Diyabetin türlerine ait ek bilgiler (örneğin Tip 1 ve Tip 2 arasındaki farklar) daha detaylı açıklanmalı",
+        "Kan şekeri yükselmesinin diğer nedenleri (örneğin yaşam tarzı faktörleri) eklenmeli"
+      ],
+      "timestamp": "2026-05-18T21:04:30.684015"
+    },
+    {
+      "query_id": 3,
+      "query": "Hipertansiyon belirtileri nelerdir?",
+      "medical_accuracy": 4,
+      "completeness": 3,
+      "safety_ethics": 5,
+      "clarity": 4,
+      "source_quality": 3,
+      "overall_score": 3.8,
+      "feedback": "Cevap tıbbi bilgiler genel olarak doğru ancak bazı detaylar eksik. Belirtilerin spesifik olmaması ve erken tanının zorluğunu vurgulamak gerekir.",
+      "strengths": [
+        "Tıbbi belirtiler listesi doğru ve anlaşılır",
+        "Kullanıcının sağlığına dikkat çekme mesajı etkili"
+      ],
+      "improvements": [
+        "Hipertansiyonun asimptomatik doğasını daha vurgulamalı",
+        "Tansiyon ölçümü ve yaşam tarzı etkilerini detaylandırmalı"
+      ],
+      "timestamp": "2026-05-18T21:04:39.533061"
+    },
+    {
+      "query_id": 4,
+      "query": "Kalp krizi belirtileri nelerdir?",
+      "medical_accuracy": 4,
+      "completeness": 3,
+      "safety_ethics": 5,
+      "clarity": 4,
+      "source_quality": 1,
+      "overall_score": 3.4,
+      "feedback": "Cevap genel olarak doğru tıbbi bilgiler içeriyor ancak bazı kritik detaylar eksik. Kaynak atıf eksikliği ciddi bir eksiklik.",
+      "strengths": [
+        "Tıbbi bilgiler genel olarak doğru ve güncel",
+        "Acil yardım uyarısı etkili"
+      ],
+      "improvements": [
+        "Kalp krizi tanısında kullanılan laboratuvar testleri (örneğin troponin) ve EKG bilgilerini ekleyin",
+        "Kaynakları belirtmek ve bilgi kaynağını açıkça atıf yapın"
+      ],
+      "timestamp": "2026-05-18T21:04:48.467927"
+    },
+    {
+      "query_id": 5,
+      "query": "Astım atağı sırasında ne yapılmalıdır?",
+      "medical_accuracy": 4,
+      "completeness": 3,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 3,
+      "overall_score": 4.0,
+      "feedback": "Cevap genel olarak tıbbi bilgileri doğru ve etik çerçevede sunar ancak bazı detaylara eksiklikler var.",
+      "strengths": [
+        "Tıbbi bilgi doğru ve güncel",
+        "Net ve profesyonel bir yapıya sahip"
+      ],
+      "improvements": [
+        "Asthma atağında kullanılan spesifik ilaçlar (örneğin bronkodilatörler) belirtilmeli",
+        "Aile rolleri ve pandemi önlemleri gibi ek bilgiler eklenmeli"
+      ],
+      "timestamp": "2026-05-18T21:04:56.480189"
+    },
+    {
+      "query_id": 6,
+      "query": "Antibiyotik kullanırken nelere dikkat edilmelidir?",
+      "medical_accuracy": 4,
+      "completeness": 4,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 4,
+      "overall_score": 4.4,
+      "feedback": "Cevap genel olarak tıbbi bilgileri doğru ve profesyonel bir şekilde sunar, ancak bazı önemli noktaları eksik bırakmıştır. Örneğin, el yıkama, antibiyotiklerin evde bulunmaması ve aşılamalar gibi önlemler vurgulanmamıştır. Ayrıca kaynak atıfları eksik kalırken, tıbbi doğruluk ve netlik açısından güçlü bir yapıya sahiptir.",
+      "strengths": [
+        "Tıbbi bilgilerin çoğu kanıta dayalı ve güncel",
+        "Yapısal düzen ve net ifadelerle profesyonel bir sunum"
+      ],
+      "improvements": [
+        "Kaynaklardan elde edilen ek önlemleri (el yıkama, aşılamalar) eklemek",
+        "Kaynak atıflarını belirtmek ve eksik noktaları tamamlamak"
+      ],
+      "timestamp": "2026-05-18T21:05:04.956448"
+    }
+  ]
+}

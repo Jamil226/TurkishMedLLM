@@ -1,0 +1,9 @@
+Metric,Value,Description
+Total Queries Evaluated,6,Number of medical queries processed
+Average Query Length,41.5,Average characters in queries
+Average Answer Length,939.8,Average characters in generated answers
+Average Context Count,5.0,Average number of retrieved documents
+Safety Disclaimer Rate,100.0%,Percentage of answers with safety disclaimers
+Avg Answer Relevancy (DeepEval),0.50,Average answer relevancy score (0-1)
+Avg Faithfulness (DeepEval),0.50,Average faithfulness score (0-1)
+Evaluation Timestamp,2026-05-19T17:36:48.388298,When evaluation was performed

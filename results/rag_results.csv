@@ -1,0 +1,28 @@
+query_id,query,answer,answer_full_length,retrieved_sources_count,model_used,timestamp,top_retrieved_title
+1,Diyabet hastalarında kan şekeri neden yükselir?,"Diyabet hastalarında kan şekeri yükselmesinin temel nedeni, insülin hormonunun yetersiz üretimine veya hücrelerin insüline karşı direnç gelişmesine bağlı olarak glikozun hücre içine alınamasıdır. Bağlamda belirtilen bilgilere göre, Tip 1 diyabette pankreasın yeterli miktarda insülin üretmemesi, Tip 2 diyabette ise yüksek insülin seviyelerine rağmen hücrelerin insüline yanıt vermemesi nedeniyle glikoz hücrelerine ulaşamaz. Bu durum, kan içinde glikozun birikmesine (hiperglisemi) yol açar. Kan şek",699,5,qwen3:8b,2026-05-11T09:59:31.474343,Şeker Nasıl Düşürülür? Evde Şekeri Düşürmenin Yolları
+2,Diyabet hastalarında kan şekeri neden yükselir?,"Diyabet hastalarında kan şekeri yükselmesinin temel nedeni, insülin hormonunun yetersiz üretimine (Tip 1 diyabet) veya hücrelerin insüline karşı direnç gelişmesine (Tip 2 diyabet) bağlı olarak glikozun hücre içine alınmasının engellenmesidir. Bu durumda, beslenme sırasında sindirilen karbonhidratlar (ekmek, şeker, pirinç vb.) sindirildiğinde açığa çıkan glikoz, hücrelerine ulaşamaz ve kan içinde birikerek hiperglisemiye neden olur. Bu süreç, kan damarları, gözler, böbrekler ve sinir sistemine za",748,5,qwen3:8b,2026-05-11T14:03:30.246147,Şeker Nasıl Düşürülür? Evde Şekeri Düşürmenin Yolları
+3,Hipertansiyon belirtileri nelerdir?,"Hipertansiyon genellikle belirti vermeyen, ""sinsi bir hastalıktır"". Ancak tansiyonun 180/100 mmHg değerinin üzerinde olmasıyla bazı belirtiler görülebilir. Sıklıkla karşılaşılan hipertansiyon belirtileri şunlardır:  
+- Baş ağrısı  
+- Baş dönmesi  
+- Kulak çınlaması  
+- Halsizlik ve yorgunluk  
+- Bacaklarda şişlik  
+- Bulanık görme  
+- Burun kanaması  
+- Sık idrara çıkma isteği  
+- Kalp ağrısı  
+- Ritim bozuklukları  
+- Nefes darlığı  
+
+Önemli olan, hipertansiyonun çoğu zaman belirti göstermeden ",821,5,qwen3:8b,2026-05-11T14:04:53.405136,Hipertansiyon (Yüksek Tansiyon) Nedir? Hipertansiyon (Yüksek Tansiyon) Belirtileri ve Tedavisi
+4,Kalp krizi belirtileri nelerdir?,"Kalp krizi belirtileri kişiden kişiye değişebilir, ancak genellikle şu semptomlarla ortaya çıkar:  
+- **Göğüs ağrısı veya rahatsızlığı**: Göğüste baskı, doluluk, sıkışma veya yanma hissiyle birlikte ağrı. Bu ağrı genellikle sol kola, çeneye, sırtta veya omuzda yayılabilir.  
+- **Nefes darlığı**: Dinlenirken veya hafif fiziksel aktivite sırasında bile nefes almak zorlaşabilir.  
+- **Yoğun terleme**: Soğuk ve yoğun terleme, kalp krizinin önemli bir işaretidir.  
+- **Mide bulantısı ve kusma**: Sind",1034,5,qwen3:8b,2026-05-11T14:06:29.325860,Kalp Krizi Belirtileri Nelerdir? Kalp Krizi Nedenleri ve Tedavisi
+5,Astım atağı sırasında ne yapılmalıdır?,"Astım atağı sırasında ilk adım, **yazılı eylem planına göre** kurtarıcı (rescue) ilaçların kullanılmasıdır. Bu ilaçların kullanımı, doktor tarafından önceden belirlenmiş olan doz ve sıklıkta yapılmalıdır. Eğer kurtarıcı ilaç kullanıldıktan sonra şikayetler azalmıyorsa veya artıyorsa, **hemen doktora başvurulmalıdır**. Ayrıca, şiddetli semptomlar (göğüs ağrısı, nefes darlığı, bilinç kaybı vb.) varsa **acil servise derhal başvurulmalıdır**. Astım eylem planında, atak sırasında ne yapılması gerekti",663,5,qwen3:8b,2026-05-11T14:07:55.722173,"Çocuklarda Grip, Astım Ataklarını Tetikleyebilir"
+6,Antibiyotik kullanırken nelere dikkat edilmelidir?,"Antibiyotik kullanırken dikkat edilmesi gerekenler şunlardır:  
+- Yalnızca doktor reçetesi ile kullanılmalı ve belirlenen süre boyunca düzenli olarak alınmalıdır. İlaç dozunu atlamak veya erken bırakmak, bakterilerin tam anlamıyla yok edilmesini engeller.  
+- Antibiyotiklerin etkili olabilmesi için belirli aralıklarla ve doğru dozda alınması önemlidir.  
+- Antibiyotik alınma saatlerine mutlaka uyulmalı, alınması gereken saatte alınmadıysa bir sonraki saatte fazla doz alınmamalıdır.  
+- Antibiyot",1674,5,qwen3:8b,2026-05-11T14:10:06.274582,Çocuklarda solunum yolu enfeksiyonunda antibiyotiğe dikkat!

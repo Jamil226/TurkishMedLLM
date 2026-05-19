@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-05-11T14:10:06.274787",
+  "total_queries": 5,
+  "model_used": "qwen3:8b",
+  "indexing_progress_at_run": "100.0%",
+  "output_file": "/home/yapbenzet/Desktop/TurkishMedLLM Project/TurkishMedLLM/data-rag/outputs/rag_demo_outputs.jsonl"
+}

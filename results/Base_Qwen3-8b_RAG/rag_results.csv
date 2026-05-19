@@ -1,0 +1,53 @@
+query,retrieved_chunk_ids,retrieved_titles,retrieved_urls,retrieved_contexts,generated_answer,model_name,timestamp
+Diyabet hastalarında kan şekeri neden yükselir?,[],[],[],[],"Diyabet hastalarında kan şekeri (glikoz) seviyesinin yükselmesi, **insülinin etkisizliği** veya **insülin direnci** gibi temel mekanizmalarla açıklanır. Aşağıda bu durumun nedenleri detaylandırılmıştır:
+
+---
+
+### 1. **İnsülinin Eksikliği (Tip 1 Diyabet)**  
+- **İnsülin üretimi yoktur**: Tip 1 diyabette, pankreasın beta hücreleri (insülin üretimi yapan hücreler) hasar görür veya yok olur. Bu durumda, vücudun insülin üretmesi durur.  
+- **Glikoz hücreye giremez**: Insülin, glikozun hücrelerine girmesini sağlar. Insülin eksikliği durumunda, glikoz kan damarlarında kalmaya devam eder ve kan şekeri artar.",Base_Qwen3-8b_RAG,2026-05-19T18:08:33.152315
+Hipertansiyon belirtileri nelerdir?,[],[],[],[],"**Hipertansiyon (yüksek tansiyon) belirtileri** genellikle belirsiz veya hafif olabilir, ancak bazı durumlarda aşağıdaki semptomlar görülebilir:
+
+### **1. Ortak Belirtiler (Düşük Tansiyonlu Olgularda):**
+- **Kafa ağrısı:** Özellikle başın arka kısmında, sabah uyanıldığında veya stresli durumlarda.
+- **Kusma veya bulantı:** Yüksek tansiyon sırasında görülebilir.
+- **Halsizlik veya yorgunluk:** Uzun süreli hipertansiyon nedeniyle metabolik bozukluklarla ilişkilidir.
+- **Düşük kalp frekansı (bradikardi):** Bazı durumlarda görülebilir.
+- **Kabızlık:** Tansiyonun etkisiyle bazı kişilerde görülebilir.
+
+### **2.",Base_Qwen3-8b_RAG,2026-05-19T18:10:35.298620
+Kalp krizi belirtileri nelerdir?,[],[],[],[],"Kalp krizi (akut koroner sendrom) belirtileri genellikle ani ve şiddetli olabilir. En yaygın belirtiler şunlardır:
+
+1. **Göğüs ağrısı veya rahatsızlığı**:  
+   - Göğüs ortasında, sol göğüs bölgesinde veya göğüsün sol tarafında **basma, sıkışma, baskı veya ağırlık hissi**.  
+   - Ağrı bazen **göğüs dışına yayılabilir** (örneğin, kollar, el bilekleri, çene, boyun, sırt veya karın bölgesine).  
+   - Ağrı **uyanık tutabilir** (gece veya uykuda da devam edebilir).
+
+2. **Soluk daralması (soluk darlığı)**:  
+   - Göğüs ağrısıyla birlikte veya ayrı olarak **soluk almakta zorlanma** hissi.
+
+3. **Katarakt (katarakt)**:  
+   - **Koltuk altı terleme**, **korku**, **korku**, **korku** veya **korku** hissi.
+
+4.",Base_Qwen3-8b_RAG,2026-05-19T18:12:11.726171
+Astım atağı sırasında ne yapılmalıdır?,[],[],[],[],"Astım atağı sırasında aşağıdaki adımlar takip edilmelidir:  
+
+1. **Nefes almayı ve rahatlamayı sağlayın**: Panik durumları solunum yollarını daha da daraltabilir. Konforlu bir pozisyonda (oturarak veya yatarak) oturun.  
+
+2. **Kurtarıcı inhaler (örneğin: albuterol, salbutamol) kullanın**:  
+   - 4 puf (aerosol) 20 dakikada bir uygulayın.  
+   - 1 saatlik süre içinde 3-4 kez uygulama yapın.  
+   - Eğer 1 saat içinde belirgin iyileşme olmazsa, **acil yardım çağrısı** (112) yapılmalıdır.  
+
+3.",Base_Qwen3-8b_RAG,2026-05-19T18:14:14.356915
+Antibiyotik kullanırken nelere dikkat edilmelidir?,[],[],[],[],"Antibiyotik kullanımında dikkat edilmesi gereken temel noktalar şunlardır:
+
+1. **Tıbbi Uzmanlıkla Kullanım**: Antibiyotikler, doktorun reçetesiyle ve doğru dozda kullanılmalıdır. Kendi başınıza veya bir başkasının reçetesine göre kullanmamalısınız.
+
+2. **Kullanım Süresi**: Antibiyotiklerin tamamını bitirmelisiniz. Hasta hissetmemenizde bile ilaçları kesmeyin; bu, bakterilerin direnç geliştirmesine neden olabilir.
+
+3. **Virüsler İçin Etkisizdir**: Antibiyotikler, virüslerin (örneğin soğuk algınlığı, grip) neden olduğu enfeksiyonlarda etkisizdir. Bu durumlarda diğer tedaviler uygulanmalıdır.
+
+4. **İlaç Kullanımına Dikkat**: Antibiyotikler, yemekle birlikte alınmalıdır (stomak tahrişine neden olursa). Bazı antibiyotikler alkol tüketimini engellemelidir (örneğin metronidazol).
+
+5. **Yan Etkilere Dikkat**: Aşırı dozda veya uzun süre kullanıldığında karaciğer, böbrek veya bağırsak fonksiyonları bozulabilir.",Base_Qwen3-8b_RAG,2026-05-19T18:15:59.209368

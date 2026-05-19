@@ -1,0 +1,36 @@
+{
+  "evaluation_date": "2026-05-19T17:36:23.705018",
+  "total_samples": 6,
+  "metrics": {
+    "medical_accuracy": {
+      "mean": 4.166666666666667,
+      "min": 4,
+      "max": 5
+    },
+    "completeness": {
+      "mean": 3.5,
+      "min": 3,
+      "max": 4
+    },
+    "safety_ethics": {
+      "mean": 4.833333333333333,
+      "min": 4,
+      "max": 5
+    },
+    "clarity": {
+      "mean": 4.5,
+      "min": 3,
+      "max": 5
+    },
+    "source_quality": {
+      "mean": 3.0,
+      "min": 2,
+      "max": 4
+    },
+    "overall": {
+      "mean": 4.0,
+      "min": 3.4,
+      "max": 4.4
+    }
+  }
+}

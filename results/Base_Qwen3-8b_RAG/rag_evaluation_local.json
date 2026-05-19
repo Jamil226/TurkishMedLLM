@@ -1,0 +1,109 @@
+{
+  "evaluation_type": "Local Qwen3:8B Evaluation (FREE)",
+  "timestamp": "2026-05-19T19:05:56.383292",
+  "total_samples": 5,
+  "results": [
+    {
+      "query_id": 1,
+      "query": "Diyabet hastalarında kan şekeri neden yükselir?",
+      "medical_accuracy": 4,
+      "completeness": 2,
+      "safety_ethics": 5,
+      "clarity": 5,
+      "source_quality": 1,
+      "overall_score": 3.4,
+      "feedback": "Cevap tıbbi bilgileri doğru ancak tamamlanmamıştır. Tip 2 diyabet ve insülin direnci konuları eksik kalmış, ek faktörler (diyet, yaşam tarzı) de ele alınmamıştır. Kaynak gösterimi eksik olup, bağlam eksikliği nedeniyle bilgi eksikliği mevcuttur.",
+      "strengths": [
+        "İnsülin eksikliği ve glikoz metabolizmasının açıklaması doğru ve profesyonel",
+        "Yapısal düzen ve net ifadelerle açıklama kolaylaştırılmış"
+      ],
+      "improvements": [
+        "Tip 2 diyabet ve insülin direnci mekanizmalarını ekleyin",
+        "Diyet, yaşam tarzı ve diğer etkenleri kapsayıcı bir şekilde ele alın"
+      ],
+      "timestamp": "2026-05-19T18:29:07.123318"
+    },
+    {
+      "query_id": 2,
+      "query": "Hipertansiyon belirtileri nelerdir?",
+      "medical_accuracy": 2,
+      "completeness": 2,
+      "safety_ethics": 3,
+      "clarity": 3,
+      "source_quality": 1,
+      "overall_score": 2.2,
+      "feedback": "Cevap tıbbi doğruluk açısından ciddi eksiklikler içeriyor. Hipertansiyonun genellikle belirtisiz olması ve belirtilerin nadiren görüldüğü gerçeği yok. Ayrıca \"düşük tansiyonlu olgularda\" kısmında hipertansiyon yerine hipotansiyon karıştırılmış. Kaynak gösterilmemiştir.",
+      "strengths": [
+        "Yapısal düzen",
+        "Bazı belirtiler listelenmiştir"
+      ],
+      "improvements": [
+        "Hipertansiyonun belirsiz belirtileri ve komplikasyonları detaylandırılmalı",
+        "Tıbbi doğruluk ve kaynak gösterimi eksikliği giderilmeli"
+      ],
+      "timestamp": "2026-05-19T18:40:26.419533"
+    },
+    {
+      "query_id": 3,
+      "query": "Kalp krizi belirtileri nelerdir?",
+      "medical_accuracy": 1,
+      "completeness": 2,
+      "safety_ethics": 2,
+      "clarity": 3,
+      "source_quality": 1,
+      "overall_score": 1.8,
+      "feedback": "Cevap tıbbi doğruluk açısından ciddi hatalara sahiptir. 'Katarakt' ifadesi tamamen yanlış ve kalp krizi belirtisi değildir. Ayrıca acil yardım çağrısı gibi kritik bilgiler eksik olup, etik ve güvenlik açısından eksiklikler vardır.",
+      "strengths": [
+        "Göğüs ağrısı ve nefes daralması gibi temel belirtiler doğru şekilde belirtilmiştir",
+        "Yazı yapısı kısmen tutarlı ve okunaklıdır"
+      ],
+      "improvements": [
+        "'Katarakt' ifadesi 'korku' veya 'panik' olarak düzeltilmelidir",
+        "Nefes daralması, koltuk altı terleme, bulantı, bayılma gibi ek belirtiler eklenmeli ve acil yardım çağrısı uyarıları eklenmeli"
+      ],
+      "timestamp": "2026-05-19T18:49:49.704218"
+    },
+    {
+      "query_id": 4,
+      "query": "Astım atağı sırasında ne yapılmalıdır?",
+      "medical_accuracy": 4,
+      "completeness": 3,
+      "safety_ethics": 2,
+      "clarity": 3,
+      "source_quality": 1,
+      "overall_score": 2.6,
+      "feedback": "Cevap genel olarak tıbbi bilgiyi içeriyor ancak bazı kritik detaylar eksik. Örneğin, inhaler kullanımı sırasında spacer kullanımı, semptom takibi ve acil durum kriterlerinin daha net belirtilmesi gerekiyor.",
+      "strengths": [
+        "Kurtarıcı inhaler kullanım adımları doğru",
+        "Panik durumunda konforlu pozisyon önerisi"
+      ],
+      "improvements": [
+        "Inhaler kullanımı sırasında spacer kullanımı ve doğru puf sayısını belirtin",
+        "Acil yardım çağrısı kriterlerini daha net ve güncel kılın",
+        "Kaynak atıflarını ekleyin",
+        "Cevabın tamamlanması için eksik olan üçüncü maddeyi ekleyin"
+      ],
+      "timestamp": "2026-05-19T18:57:30.424316"
+    },
+    {
+      "query_id": 5,
+      "query": "Antibiyotik kullanırken nelere dikkat edilmelidir?",
+      "medical_accuracy": 4,
+      "completeness": 3,
+      "safety_ethics": 4,
+      "clarity": 5,
+      "source_quality": 1,
+      "overall_score": 3.4,
+      "feedback": "Cevap genel olarak doğru ve profesyonel bir yapıya sahiptir, ancak bazı önemli detaylar eksik ve kaynak atıfları bulunmamaktadır.",
+      "strengths": [
+        "Tıbbi bilgiler doğru ve güncel görünmektedir",
+        "Açık ve yapılandırılmış bir sunum sunmaktadır"
+      ],
+      "improvements": [
+        "Antibiyotik direnci mekanizmalarını ve etik kullanım kurallarını daha detaylı açıklamalıdır",
+        "Güvenilir kaynaklar belirtilmeli ve atıflar yapılmalıdır"
+      ],
+      "timestamp": "2026-05-19T19:05:56.342478"
+    }
+  ]
+}
