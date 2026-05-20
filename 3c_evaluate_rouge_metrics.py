@@ -20,7 +20,7 @@ sys.path.insert(0, str(BASE_DIR))
 
 from src.config import SFT_INSTRUCTION_FILE, EVALUATION_DIR
 from src.utils.logger import setup_logger
-from src.rag.rag_chain import TurkishMedRAG
+from src.rag.r_2c_rag_chain import TurkishMedRAG
 
 # Import ROUGE library
 try:

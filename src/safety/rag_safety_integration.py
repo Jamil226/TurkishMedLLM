@@ -11,7 +11,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
-from src.rag.rag import TurkishMedRAG
+from src.rag.r_2c_rag_chain import TurkishMedRAG
 from src.safety.safety_prompts import SafetyPrompts, SafetyConfig, SafetyLevel, get_safety_config
 
 
