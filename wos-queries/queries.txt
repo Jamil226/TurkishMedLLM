@@ -1,0 +1,107 @@
+1. General medical article query
+
+("medical article*" OR "health article*" OR "patient education" OR "health information" OR "clinical information" OR "disease information" OR "medical information" OR "healthcare information")
+AND
+("hospital" OR "clinic" OR "health center" OR "medical center" OR "university hospital" OR "ministry of health")
+AND
+("Turkish" OR "Türkiye" OR "Turkey" OR "Türkçe")
+
+2. Turkish hospital medical articles query
+
+("hospital article*" OR "hospital health article*" OR "patient information" OR "patient guide*" OR "health guide*" OR "disease guide*" OR "medical guide*")
+AND
+("Turkish hospital*" OR "university hospital*" OR "state hospital*" OR "private hospital*" OR "medical faculty hospital*")
+AND
+("Turkish" OR "Türkçe" OR "Türkiye")
+
+3. Query for disease explanation articles
+
+("disease information" OR "disease explanation" OR "symptoms" OR "causes" OR "diagnosis" OR "treatment" OR "prevention" OR "risk factors")
+AND
+("patient education" OR "patient information" OR "health article*" OR "medical article*")
+AND
+("Turkish" OR "Türkçe" OR "Türkiye" OR "Turkey")
+
+4. Query for patient education medical content
+
+("patient education" OR "patient information" OR "patient guide*" OR "health literacy" OR "public health information" OR "consumer health information")
+AND
+("medical" OR "clinical" OR "healthcare" OR "hospital" OR "disease")
+AND
+("Turkish" OR "Türkçe" OR "Türkiye")
+
+
+5. Turkish-language version for Google search
+
+("hastalıklar" OR "belirtiler" OR "tanı" OR "tedavi" OR "korunma" OR "risk faktörleri")
+AND
+("hasta bilgilendirme" OR "sağlık rehberi" OR "hastane sağlık yazıları" OR "tıbbi makale" OR "sağlık makalesi")
+AND
+("Türkçe" OR "Türkiye" OR "üniversite hastanesi" OR "devlet hastanesi")
+
+6. For hospital websites only
+
+("hasta bilgilendirme" OR "sağlık rehberi" OR "hastalıklar" OR "belirtiler" OR "tedavi")
+AND
+("üniversite hastanesi" OR "tıp fakültesi hastanesi" OR "eğitim araştırma hastanesi" OR "özel hastane")
+AND
+("Türkçe")
+
+7. Google site-specific query for Turkish hospital domains
+
+site:.edu.tr ("hasta bilgilendirme" OR "sağlık rehberi" OR "hastalıklar" OR "belirtiler" OR "tedavi")
+
+
+site:.gov.tr ("hasta bilgilendirme" OR "sağlık rehberi" OR "hastalıklar" OR "belirtiler" OR "tedavi")
+
+
+site:.com.tr ("sağlık rehberi" OR "hastalıklar" OR "belirtiler" OR "tedavi") ("hastane" OR "tıp merkezi")
+
+
+8. Best query for your paper dataset collection
+
+("hasta bilgilendirme" OR "sağlık rehberi" OR "hastalıklar" OR "belirtiler" OR "tanı" OR "tedavi" OR "korunma" OR "risk faktörleri")
+AND
+("üniversite hastanesi" OR "devlet hastanesi" OR "eğitim ve araştırma hastanesi" OR "özel hastane" OR "tıp merkezi" OR "Sağlık Bakanlığı")
+AND
+("Türkçe" OR "Türkiye")
+
+
+9. Topic-specific medical article query
+
+
+For diabetes:
+
+("diyabet" OR "şeker hastalığı" OR "kan şekeri" OR "insülin" OR "hipoglisemi" OR "hiperglisemi")
+AND
+("hasta bilgilendirme" OR "sağlık rehberi" OR "belirtiler" OR "tedavi" OR "korunma")
+AND
+("hastane" OR "üniversite hastanesi" OR "Sağlık Bakanlığı")
+
+
+
+For hypertension:
+
+("hipertansiyon" OR "yüksek tansiyon" OR "kan basıncı")
+AND
+("belirtiler" OR "nedenleri" OR "tedavi" OR "korunma" OR "hasta bilgilendirme")
+AND
+("hastane" OR "üniversite hastanesi" OR "Sağlık Bakanlığı")
+
+
+
+("hasta bilgilendirme" OR "sağlık rehberi" OR "hastalıklar" OR "belirtiler" OR "tanı" OR "tedavi" OR "korunma" OR "risk faktörleri")
+AND
+("hastane" OR "üniversite hastanesi" OR "tıp fakültesi" OR "eğitim ve araştırma hastanesi" OR "Sağlık Bakanlığı" OR "tıp merkezi")
+AND
+("Türkçe" OR "Türkiye")
+
+
+
+
+
+
+
+
+
+
