@@ -534,5 +534,4 @@ This project is research-driven and part of the TurkishMedLLM initiative.
 ---
 
 **Last Updated:** May 11, 2026  
-**System Status:** ✅ Production-Ready for Fine-Tuning  
-**Next Action:** Launch QLoRA training (execute `bash start_qlora_training.sh`)
+
