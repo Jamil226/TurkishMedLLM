@@ -250,7 +250,7 @@ class QLoRATrainer:
             "text": [s["text"] for s in val_formatted]
         })
         
-        logger.info("✅ Data prepared and formatted")
+        logger.info("Data prepared and formatted")
     
     def tokenize_dataset(self):
         """Tokenize datasets"""
@@ -282,7 +282,7 @@ class QLoRATrainer:
             remove_columns=["text"]
         )
         
-        logger.info(f"✅ Tokenization complete")
+        logger.info(f"Tokenization complete")
     
     def compute_rouge_metrics(self, predictions, references) -> Dict:
         """Compute ROUGE scores"""
@@ -331,7 +331,7 @@ class QLoRATrainer:
                 predictions.append(prediction)
                 references.append(input_text[:256])
         
-        logger.info(f"✅ Generated {len(predictions)} predictions")
+        logger.info(f"Generated {len(predictions)} predictions")
         return predictions, references
     
     def save_rouge_metrics(self, epoch: int, rouge_scores: Dict):
@@ -344,7 +344,7 @@ class QLoRATrainer:
             for metric, score in rouge_scores.items():
                 writer.writerow({'metric': metric, 'score': f"{score:.4f}"})
         
-        logger.info(f"✅ ROUGE metrics saved: {rouge_file}")
+        logger.info(f"ROUGE metrics saved: {rouge_file}")
     
     def setup_training_args(self) -> TrainingArguments:
         """Configure training arguments"""
@@ -376,7 +376,7 @@ class QLoRATrainer:
             seed=42,
         )
         
-        logger.info(f"✅ Training will run for ~{total_train_steps} steps")
+        logger.info(f"Training will run for ~{total_train_steps} steps")
         return training_args
     
     def setup_trainer(self):
@@ -470,10 +470,10 @@ class QLoRATrainer:
         
         save_path.mkdir(parents=True, exist_ok=True)
         
-        logger.info(f"💾 Saving checkpoint to {save_path}...")
+        logger.info(f"Saving checkpoint to {save_path}...")
         self.model.save_pretrained(str(save_path))
         self.tokenizer.save_pretrained(str(save_path))
-        logger.info(f"✅ Checkpoint saved")
+        logger.info(f"Checkpoint saved")
     
     def generate_sample_predictions(self, num_samples: int = 5) -> List[Dict]:
         """Generate predictions on sample queries"""
@@ -551,7 +551,7 @@ class QLoRATrainer:
         with open(report_file, 'w', encoding='utf-8') as f:
             json.dump(report, f, indent=2, ensure_ascii=False)
         
-        logger.info(f"✅ Training report saved: {report_file}")
+        logger.info(f"Training report saved: {report_file}")
     
     def run_complete_pipeline(self):
         """Execute complete QLoRA fine-tuning pipeline"""
@@ -596,9 +596,9 @@ class QLoRATrainer:
             self.save_training_report()
             
             logger.info("\n" + "="*70)
-            logger.info("✅ QLoRA FINE-TUNING COMPLETE!")
+            logger.info("QLoRA FINE-TUNING COMPLETE!")
             logger.info("="*70)
-            logger.info(f"\n📊 OPTIMIZATION SUMMARY:")
+            logger.info(f"\n OPTIMIZATION SUMMARY:")
             logger.info(f"   Batch Size: {self.config.per_device_train_batch_size} (2x speedup, OOM-safe)")
             logger.info(f"   Gradient Accumulation: {self.config.gradient_accumulation_steps}")
             logger.info(f"   GPU Memory: Safe utilization (RTX 5000 Ada 32GB)")
@@ -607,19 +607,19 @@ class QLoRATrainer:
             logger.info(f"ROUGE metrics: {self.config.rouge_eval_dir}")
             
         except Exception as e:
-            logger.error(f"\n❌ Pipeline failed: {e}")
+            logger.error(f"\n Pipeline failed: {e}")
             raise
 
 
 def main():
     """Main execution"""
-    logger.info("🟢 Turkish Medical LLM - QLoRA Fine-Tuning Pipeline\n")
+    logger.info(" Turkish Medical LLM - QLoRA Fine-Tuning Pipeline\n")
     logger.info("⚡ OPTIMIZED FOR SPEED (4x faster) + FULL GPU (RTX 5000 Ada 32GB)\n")
     
     # Create config
     config = QLoRAConfig()
     
-    logger.info(f"📊 Training Configuration:")
+    logger.info(f" Training Configuration:")
     logger.info(f"   Batch Size: {config.per_device_train_batch_size}")
     logger.info(f"   Gradient Accumulation: {config.gradient_accumulation_steps}")
     logger.info(f"   Logging/Save Frequency: Every {config.logging_steps} steps\n")
