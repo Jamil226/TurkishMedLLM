@@ -229,4 +229,12 @@ Detailed project documentation is available in [markdowns/](markdowns/), includi
 
 ## License
 
-This repository is provided for research purposes. No license is currently declared; contact the corresponding authors before reuse, redistribution, or deployment.
+This repository is provided for research purposes. 
+
+## Citation
+If you use this codebase or the TurkishMedLLM in your research, please cite:
+
+Jamil, M., Kavak, A., Omurca, S. İ., & Fotouhi, H. (2026). Design and Evaluation of a Source-Grounded Medical LLM for Clinical Decision Support and Patient Care in Trustworthy Diagnostic Systems. Diagnostics, 16(19), 3142. https://doi.org/10.3390/diagnostics16193142
+
+## Paper Link
+[TurkishMedLLM Paper](https://www.mdpi.com/2075-4418/16/19/3142)
